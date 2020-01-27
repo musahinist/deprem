@@ -1,0 +1,16 @@
+@baseUrl= https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&eventtype=earthquake&orderby=time&minmag=5&limit=100
+@haritaURL= https://earthquake.usgs.gov/earthquakes/eventpage/us60007d2r/map
+
+GET {{baseUrl}}
+// https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&eventtype=earthquake&orderby=time&minmag=5&limit=100
+//5 değerini alt yapmış istersen daha az yapabilrsin
+//100 tane son depremi göstermiş
+
+####
+
+GET {{haritaURL}}
+// us60007d2r   yazan kısmı url api den değiştrimen yeterli
+//ids: ",us60007d2r," api içindeki bu gölümü ekledinmi tamamd
+
+
+//AIzaSyBSic41oIByg3gkX2ADoAWCfDGQ_BLY8fo
