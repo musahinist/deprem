@@ -33,7 +33,7 @@ class EarthquakeScreen extends StatefulWidget {
 
 class _EarthquakeScreenState extends State<EarthquakeScreen> {
   final String url =
-      'https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&eventtype=earthquake&orderby=time&minmag=5&limit=100';
+      'https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&eventtype=earthquake&orderby=time&minmag=3&limit=100';
 
   // List earthquakes;
 
